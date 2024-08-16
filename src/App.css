@@ -1,0 +1,286 @@
+body {
+  background-color: hsl(211, 66%, 10%);
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: 600;
+  
+  
+}
+
+.header {
+  box-shadow: 5px 0px 8px rgba(0, 0, 0, 0.3);
+  height: 8vh;
+  margin: 0;
+  color: hsl(193, 99%, 42%);
+  background-color: hsl(211, 66%, 12%);;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.brand {
+  font-size: 4vh;
+  margin-left: 1vw;
+  text-decoration: none;
+  color: inherit;
+}
+
+.brand:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header-list {
+  display: flex;
+  list-style: none;
+}
+
+.header-list > * {
+  margin-right: 1vw;
+  font-size: 2.5vh;
+  cursor: pointer;
+}
+
+
+.main-container {
+  margin: 0;
+}
+
+.menuContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuHeader {
+  font-size: 6vh;
+  color: hsl(193, 99%, 42%);
+  text-shadow: 5px 5px 5px black;
+}
+
+.menuContainer > img {
+  max-width: 40vw;
+  max-height: 30vw;
+  border-radius: 5%;
+  border: 2px solid hsl(193, 99%, 42%);
+  box-shadow: 5px 5px 15px black;
+}
+
+.startButton {
+  margin-top: 2vh;
+  height: 4vh;
+  width: 6vw;
+  border-radius: 2vh;
+  border: 0;
+  background-color: hsl(193, 99%, 42%);
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.startButton:hover {
+  background-color: hsl(193, 99%, 50%);
+  cursor: pointer;
+}
+
+.startButton:active {
+  background-color: hsl(193, 99%, 35%);
+}
+
+.submitButton {
+  height: 3vh;
+  width: 4vw;
+  border-radius: 1.5vh;
+  border: 0;
+  background-color: hsl(193, 99%, 42%);
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+}
+
+.submitButton:hover {
+  background-color: hsl(193, 99%, 50%);
+  cursor: pointer;
+}
+
+.submitButton:active {
+  background-color: hsl(193, 99%, 35%);
+}
+
+.restartButton {
+  height: 4vh;
+  width: 6vw;
+  border-radius: 1.5vh;
+  border: 0;
+  background-color: hsl(193, 99%, 42%);
+  font-weight: 400;
+  color: white;
+  cursor: pointer;
+  font-size: 90%;
+
+}
+
+.restartButton:hover {
+  background-color: hsl(193, 99%, 50%);
+}
+
+.restartButton:active {
+  background-color: hsl(193, 99%, 35%);
+}
+
+
+
+.actor > img {
+  height: 80%;
+  width: 80%;
+  object-fit: cover;
+  border: 2px solid hsl(193, 99%, 25%);
+  border-radius: 5%;
+}
+
+.actor > h3 {
+  color: hsl(193, 99%, 42%);
+  margin: 0;
+  margin-top: 0.8vh;
+  font-size: 1.8vh;
+}
+
+.actor {
+ flex: 0 1 30%; 
+ text-align: center;
+ height: 13vw;
+ overflow: hidden;
+ display: flex;
+ flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.actorContainer {
+  display:flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  margin-top: 1vh;
+  width: 35vw;
+}
+
+.searchContainer{
+  margin: 0.5vh auto;
+  margin-top: 2vh;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.searchContainer > button {
+  margin-left: 0.5vw;
+  font-size: 2vh;
+  text-align: center;
+}
+
+.searchBar {
+  height: 3vh;
+  width: 15vw;
+  font-weight: bold;
+  font-size: 130%;
+}
+
+.searchResults {
+  display: flex;
+  flex-direction: column;
+  max-height: 20vh;
+  margin: 0 auto;
+  width: 32vw;
+  border-radius: 10px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  box-sizing: border-box;
+}
+
+.searchResult {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 0.2rem;
+  margin: 0;
+}
+
+.searchResult:hover {
+  background-color: blue;
+}
+
+.resultsContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2vh;
+  text-align: center;
+}
+
+.poster {
+  height: 50vh;
+  width: auto;
+  margin: 0;
+  border: 2px solid hsl(193, 99%, 25%);
+}
+
+
+ .movieTitle {
+  color: hsl(193, 99%, 42%);
+  font-size: 250%;
+  margin: 1vh;
+ }
+
+ .resultText {
+  font-size: 200%;
+  margin: 0;
+  
+ }
+
+ .smallText {
+  font-size: 150%;
+  margin: 1vh;
+  color: hsl(193, 99%, 32%);
+ }
+
+ .setting {
+  position: absolute;
+  top: 5rem;
+  right: 2rem;
+  width: 8vw;
+  border-radius: 15%;
+  height: 20vh;
+  background-color: white;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.7);
+ }
+
+ .heartAndRound {
+  display: flex;
+  margin-left: 4vw;
+ }
+
+ .heartAndRound > * {
+  margin: 0 1vw;
+ }
+
+ .hearts {
+  font-size: 250%;
+  text-align: center;
+  margin: 0;
+  color: hsl(120, 100%, 40%);
+ }
+
+ .roundNumber {
+  font-size: 4vh;
+
+}
