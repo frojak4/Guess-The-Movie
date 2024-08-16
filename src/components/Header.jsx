@@ -11,7 +11,7 @@ const Header = ({handleBackToMenu, round, hearts, handleAbout, view, handleHeart
     return(
         <div>
             <nav className="header">
-                <div className="brand"><a className="link" href="https://github.com/frojak4">420Frode</a></div>
+                <div className="brand"><a className="link" href="https://github.com/frojak4">Made By <br/>Frode Jakobsen</a></div>
 
                 {round > 0 && 
                 <div className="heartAndRound">

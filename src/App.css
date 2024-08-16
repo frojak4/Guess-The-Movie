@@ -20,8 +20,12 @@ body {
 }
 
 .brand {
-  font-size: 4vh;
+  font-size: 3vh;
+  text-align: center;
+  margin: 0;
+  line-height: 3vh;
   margin-left: 1vw;
+
   text-decoration: none;
   color: inherit;
 }
